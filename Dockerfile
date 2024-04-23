@@ -10,7 +10,7 @@ RUN \
 		git \
 		&&\
 	rm -rf /app &&\
-	git clone --recursive https://github.com/magicmark/composerize.git /app &&\
+	git clone --recursive https://github.com/Gitrequest/composerize.git /app &&\
 	cd /app &&\
 	git checkout "${COMPOSERIZE_VERSION}" &&\
 	npm install &&\
